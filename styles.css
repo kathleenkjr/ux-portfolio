@@ -119,3 +119,8 @@
 .canvas-figure a + a {
   margin-top: 12px;
 }
+
+.canvas-project-details {
+  margin-block: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+}

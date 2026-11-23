@@ -24,10 +24,13 @@
       <header class="canvas-intro">
         <p class="eyebrow"><span class="dot"></span> UX RESEARCH · PRODUCT DISCOVERY · USABILITY TESTING</p>
         <h1>Designing a Group Project Workspace for Canvas LMS</h1>
-        <p class="case-lead">A group assignment can be easy to find in Canvas and still be hard to coordinate. To figure out who was doing what, students described piecing together updates across group chats, shared documents, and Canvas.</p>
-        <p>University of Michigan · Graduate team project · 2026</p>
-        <p>In our research, I saw a recurring need. Students wanted to know what was done, who owned the remaining work, and what was due next without having to chase down teammates for an update.</p>
-        <p>Our team chose to build out the existing Canvas Group Workspace because students already used Canvas to check assignments and deadlines. We wanted them to coordinate their work in that same space without having to add another tool. Our prototype paired course milestones with a shared task list and a view of each teammate’s progress.</p>
+        <p class="case-lead">A prototype that gives students one place in Canvas to divide group work, track deadlines, and see what’s done.</p>
+        <dl class="canvas-cards canvas-project-details">
+          <div><dt>My role</dt><dd>UX research and product discovery. I synthesized interviews, developed and evaluated concepts, and helped plan tests and interpret the results.</dd></div>
+          <div><dt>Team</dt><dd>University of Michigan graduate project team. <strong>Members:</strong> Amy Rodriguez, Kelly Lawlor, Maiara Lewis Cipriano. My teammates created the journey map, service blueprint, and prototypes.</dd></div>
+          <div><dt>Timeline</dt><dd>Fall 2026</dd></div>
+          <div><dt>Tools</dt><dd>FigJam for synthesis and prioritization, Canvas LMS for product context, and ChatGPT to generate task suggestions for testing.</dd></div>
+        </dl>
         <nav class="canvas-image-links" aria-label="Project screenshots">
           <a href="#workspace">Group workspace</a>
           <a href="#research-synthesis">Affinity map</a>
@@ -45,6 +48,16 @@
         </a>
         <figcaption>Group Project Workspace prototype · Created by teammates</figcaption>
       </figure>
+
+      <section id="problem-and-opportunity">
+        <h2>The problem and opportunity</h2>
+        <p>We focused on U.S. college students working on projects in groups of three or more. When students needed to plan their own work, they had to piece together what was done, who owned the remaining tasks, and what was due next. Updates spread across group chats, shared documents, and Canvas made it easy to miss decisions or duplicate work.</p>
+        <p>Our team chose to build out the existing Canvas Group Workspace because students already used Canvas to check assignments and deadlines. We wanted them to coordinate their work in that same space without having to add another tool.</p>
+        <dl class="canvas-cards">
+          <div><dt>Desired product outcome</dt><dd>Increase participation across the group as students coordinate tasks and keep each other up to date.</dd></div>
+          <div><dt>Desired business outcome</dt><dd>Support Canvas contract renewals by making the platform more useful for coursework that depends on group collaboration.</dd></div>
+        </dl>
+      </section>
 
       <section>
         <h2>Where group work broke down</h2>
@@ -82,11 +95,17 @@
           </a>
           <figcaption>Solutions 8 and 9 · Team pitches with feedback from potential users</figcaption>
         </figure>
+        <p>We focused the prototype on explicit task ownership and status. The tracker raised questions about file access and work that happens outside Canvas. Emoji reactions were quick, but students questioned how much they would tell a teammate. A shared task list gave us a concrete way to test whether students could see and update the information they needed.</p>
       </section>
 
       <section>
         <h2>Defining the workspace</h2>
-        <p>We organized the workspace around course milestones so students could see how their individual tasks added up to the larger assignment. A group view showed who owned each task and where work stood. An individual view gave students a place to focus on their own workload.</p>
+        <p>We organized the workspace around course milestones so students could see how their individual tasks added up to the larger assignment.</p>
+        <dl class="canvas-cards">
+          <div><dt>Top · Course milestones</dt><dd>See the assignment deadlines that the group is working toward.</dd></div>
+          <div><dt>Left · Shared task list</dt><dd>See which tasks sit under a milestone, who owns them, and when they’re due.</dd></div>
+          <div><dt>Right · Group and individual views</dt><dd>Check how the group is progressing or switch to a board of your own tasks.</dd></div>
+        </dl>
         <figure class="canvas-figure">
           <dl class="canvas-cards">
             <div><dt>Student jobs</dt><dd>Divide work, assign owners, track deadlines, and stay current on progress.</dd></div>
@@ -152,11 +171,13 @@
           </a>
           <figcaption>Original testing results and iteration board · Contributor names and avatars removed</figcaption>
         </figure>
+        <p>The prototype tests showed that most participants could read the individual board and all four found the task edit control. Adding a task remained inconclusive. We still needed to test whether students would use the workspace over the course of a real assignment and whether more teammates would participate. The project did not measure any effect on Canvas contract renewals.</p>
       </section>
 
       <section id="next-steps">
         <h2>Next steps</h2>
         <p>I’d rewrite and pilot the Add Task scenario before retesting so I could tell whether the wording or the interface was sending participants to the wrong place. I’d also test whether students can edit AI-generated suggestions to fit the assignment before sharing them with their group.</p>
+        <p>To see whether we met the product goal, I’d pilot the workspace on a real course assignment and look at how many teammates use it to claim tasks, update progress, or coordinate handoffs. I’d ask what still sends them back to chats or shared documents for an update.</p>
       </section>
 
       <section id="what-i-learned">
