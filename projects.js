@@ -1,5 +1,15 @@
 window.PROJECTS = [
   {
+    "slug": "canvas-groups",
+    "name": "Designing a Group Project Workspace for Canvas LMS",
+    "category": "UX research · Product discovery",
+    "year": "2026",
+    "page": "canvas-groups.html",
+    "filters": ["research", "strategy"],
+    "image": "assets/canvas-groups-workspace.webp",
+    "imageAlt": "Team-created Canvas prototype showing milestones, tasks, and group progress"
+  },
+  {
     "slug": "xr-product",
     "name": "MigraineXR",
     "type": "XR Product Concept Development",

@@ -28,3 +28,94 @@
 .contact-links{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 18px}
 .contact-links a{display:inline-flex;align-items:center;justify-content:center;padding:11px 18px;border:1px solid currentColor;border-radius:999px;text-decoration:none;font-weight:600;transition:background .2s,color .2s}
 .contact-links a:hover,.contact-links a:focus-visible{background:#252525;color:white}
+
+.canvas-study {
+  max-width: 900px;
+  padding-block: clamp(48px, 8vw, 100px);
+}
+.canvas-intro h1 {
+  font-size: clamp(44px, 9vw, 112px);
+  margin: 20px 0;
+}
+.canvas-study section {
+  margin-block: 56px;
+}
+.canvas-study h2 {
+  font-size: clamp(30px, 5vw, 48px);
+  margin-bottom: 14px;
+}
+.canvas-study p:not(.eyebrow) {
+  line-height: 1.7;
+  color: #53645a;
+  max-width: 68ch;
+}
+.canvas-figure {
+  margin: 24px 0 0;
+}
+.canvas-figure a {
+  display: block;
+  background: #edefeb;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: clamp(8px, 2vw, 20px);
+}
+.canvas-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 720px;
+  object-fit: contain;
+}
+.canvas-figure figcaption {
+  margin-top: 10px;
+  color: #53645a;
+  font-size: .875rem;
+}
+.canvas-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 215px), 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--line);
+  margin: 0;
+}
+.canvas-results {
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+}
+.canvas-cards div {
+  background: #edefeb;
+  padding: 20px;
+}
+.canvas-cards dt {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.canvas-cards dd {
+  margin: 0;
+  line-height: 1.55;
+  color: #53645a;
+}
+.canvas-results strong {
+  display: block;
+  color: #365347;
+  font-size: 1.3rem;
+}
+.canvas-figure + p {
+  margin-top: 24px;
+}
+.canvas-image-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+}
+.canvas-image-links a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: #365347;
+}
+
+.canvas-figure a + a {
+  margin-top: 12px;
+}
