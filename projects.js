@@ -62,23 +62,6 @@ window.PROJECTS = [
     ]
   },
   {
-    "slug": "teamworks",
-    "name": "Teamworks Scheduling Platform",
-    "type": "Heuristic Evaluation",
-    "category": "UX research · Evaluation",
-    "year": "2024",
-    "lead": "Examining scheduling and communication workflows through usability principles.",
-    "method": "Reviewed Teamworks scheduling and communication features using Nielsen’s usability heuristics and recorded issues with severity ratings.",
-    "result": "Produced a structured set of findings and recommendations intended to improve scheduling workflows.",
-    "source": "assets/teamworks.xlsx",
-    "image": null,
-    "tags": [
-      "Heuristic evaluation",
-      "Severity ratings",
-      "Recommendations"
-    ]
-  },
-  {
     "slug": "coursera",
     "name": "Coursera Discussion Boards",
     "type": "Heuristic Evaluation",

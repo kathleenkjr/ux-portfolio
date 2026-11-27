@@ -15,7 +15,7 @@ function render(filter = 'all') {
       <div class="thumb ${p.image ? '' : 'noimage'}">
         ${p.image
           ? `<img loading="lazy" src="${esc(p.image)}" alt="${esc(imageAlt)}">`
-          : '<div class="graphic">Teamworks<br>Scheduling</div>'}
+          : `<div class="graphic">${esc(p.name)}</div>`}
         <span class="view" aria-hidden="true">↗</span>
       </div>
       <div class="project-top"><h3>${esc(p.name)}</h3><span class="project-year">${esc(p.year)}</span></div>
